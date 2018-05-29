@@ -3,15 +3,15 @@
 Repo made for new issue on Trufflesuite
 
 ## Setup
-
+Install dependencies and fill test mnemonic in `.env`
 ```
 npm i
 copy .env.default .env
-nano .env # and fill any test mnemonic
+nano .env
 ```
 
 ## Reproduce
-
+Run migrate
 ```
 npm run migrate
 ```
