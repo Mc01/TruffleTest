@@ -6,6 +6,13 @@ Repo made for new issue on Trufflesuite
 
 ```
 npm i
+copy .env.default .env
+nano .env # and fill any test mnemonic
+```
+
+## Reproduce
+
+```
 npm run migrate
 ```
 
