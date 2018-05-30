@@ -1,6 +1,6 @@
 # TruffleTest
 
-Repo made for new issue on Trufflesuite
+Repo made for new issue on Trufflesuite https://github.com/trufflesuite/truffle/issues/971
 
 ## Setup
 Install dependencies and fill test mnemonic in `.env`
