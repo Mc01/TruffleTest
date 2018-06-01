@@ -21,25 +21,25 @@ module.exports = {
         },
         ropsten: {
             network_id: 3, // Official ropsten network id
-            provider: new HDWalletProvider(mnemonic, `https://ropsten.infura.io/${infuraToken}`),
+            provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/${infuraToken}`),
             gas: gasLimit,
             gasPrice: gasPrice,
         },
         kovan: {
             network_id: 42, // Official kovan network id
-            provider: new HDWalletProvider(mnemonic, `https://kovan.infura.io/${infuraToken}`),
+            provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/${infuraToken}`),
             gas: gasLimit,
             gasPrice: gasPrice,
         },
         rinkeby: {
             network_id: 4, // Official rinkeby network id
-            provider: new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraToken}`),
+            provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraToken}`),
             gas: gasLimit,
             gasPrice: gasPrice,
         },
         mainnet: {
             network_id: 1, // Official main network id
-            provider: new HDWalletProvider(mnemonic, `https://mainnet.infura.io/${infuraToken}`),
+            provider: () => new HDWalletProvider(mnemonic, `https://mainnet.infura.io/${infuraToken}`),
             gas: gasLimit,
             gasPrice: gasPrice,
         }
